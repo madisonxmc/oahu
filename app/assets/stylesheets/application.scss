@@ -13,6 +13,7 @@
  *= require_tree .
  *= require_self
  */
+
 @import "bootstrap";
 .clear {
   clear: both;
@@ -53,6 +54,8 @@ font-style: italic;
   color: #3571A7;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'caviar_dreamsregular', sans-serif;
+  font-weight: bold;
 }
 
 header {
@@ -61,4 +64,16 @@ header {
 
 hr {
   clear:both;
+}
+
+h1 {
+  font-family: 'caviar_dreamsregular', sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  }
+
+h2 {
+  font-family: 'caviar_dreamsregular', sans-serif;
+  font-weight: italic;
+  font-size: 30px;
 }
